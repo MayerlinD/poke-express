@@ -7,7 +7,7 @@ class Index extends React.Component{
         return(
             <Default title="Pokemon Index Page">
                 <nav>
-                    <a href="/pokemons/new">Create a New Pokemon</a>
+                    <a href="/pokemon/new">Create a New Pokemon</a>
                 </nav>
                 <ul>
                     {
@@ -15,15 +15,15 @@ class Index extends React.Component{
                             const {name, color, image} = pokemon
                             return (
                                 <li key={pokemon._id}>
-                                    <a href={`/pokemons/${pokemon._id}`}>
+                                    <a href={`/pokemon/${pokemon._id}`}>
                                     {name}</a> is {color}
                                     
                                      <br/>
-                                    {
-                                        <img src={`${image}`}/>
-                                    }
+        
+                                        <img src={`${image}`}></img>>
+                                    
                                     <br/>
-                                    <form method="POST" action={`/pokemons/${pokemon._id}?_method=DELETE`}>
+                                    <form method="POST" action={`/pokemon/${pokemon._id}?_method=DELETE`}>
                                         <input type="submit" value={`Delete ${color} ${name}`}/>
                                     </form>
                                 </li>
