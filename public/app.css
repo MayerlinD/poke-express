@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa%7CRighteous');
 
 body {
-  background: url(https://images.clipartlogo.com/files/istock/previews/8741/87414357-apple-seamless-pastel-colors-pattern-fruits-texture-background.jpg);
+  background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/80ff523f-ff84-457d-a547-464588d3a3d3/deoyux1-d72ca079-9b11-490c-a194-108bb8dda821.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgwZmY1MjNmLWZmODQtNDU3ZC1hNTQ3LTQ2NDU4OGQzYTNkM1wvZGVveXV4MS1kNzJjYTA3OS05YjExLTQ5MGMtYTE5NC0xMDhiYjhkZGE4MjEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fSk9XccLgEJHjeTQfGWG6_5fX6QEmYdf8Iyi_0m84PU);
   margin: 0;
   font-family: 'Comfortaa', cursive;
+  text-align: center;
 }
 
 h1 {
   font-family: 'Righteous', cursive;
-  background: antiquewhite;
+  background: rgb(152, 196, 230, 0.9);
+  color: aliceblue;
   margin:0;
   margin-bottom: .5em;
   padding: 1em;
@@ -20,7 +22,7 @@ a {
   text-decoration: none;
   text-shadow: 1px 1px 1px black;
   font-size: 1.5em;
-  background: rgba(193, 235, 187, .9);
+  background: rgba(152, 196, 230, 0.7);
 }
 
 a:hover {
@@ -32,7 +34,7 @@ li {
 }
 
 li a {
-  color: mediumseagreen;
+  color: rgb(15, 88, 184);
 }
 
 input[type=text] {
@@ -41,8 +43,8 @@ input[type=text] {
 
 input[type=submit] {
   padding: .3em;
-  color: orange;
-  background: mediumseagreen;
+  color: rgb(15, 88, 184);
+  background: rgb(27, 245, 125);
   font-size: 1em;
   border-radius: 10%;
 }

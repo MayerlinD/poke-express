@@ -6,7 +6,7 @@ class Default extends React.Component {
         return(
             <html>
                 <head>
-                    <link rel="stylesheet" href="/css/app.css" />
+                    <link rel="stylesheet" href="/app.css"></link>
                     <title>{title}</title>
                 </head>
                 <body>
